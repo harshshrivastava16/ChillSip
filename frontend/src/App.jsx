@@ -29,7 +29,7 @@ function App() {
     // Set a minimum loading time of 3-4 seconds
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 4000); // 4 seconds total loading time
+    }, 10000); // 4 seconds total loading time
 
     return () => clearTimeout(timer);
   }, []);
